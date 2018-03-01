@@ -27,6 +27,8 @@ thumbs.db
 *.codekit
 .metadata/
 .idea/
+*.jar
+*.war
 
 
 node_modules

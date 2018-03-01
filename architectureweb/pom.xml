@@ -10,6 +10,72 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>architectureweb</artifactId>
+  <packaging>war</packaging>
+<dependencies>
+  <dependency>
+    <groupId>com.sishuok</groupId>
+    <artifactId>storemgr</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <type>war</type>
+  </dependency>
+  <dependency>
+    <groupId>com.sishuok</groupId>
+    <artifactId>ordermgr</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <type>war</type>
+  </dependency>
+  <dependency>
+    <groupId>com.sishuok</groupId>
+    <artifactId>cartmgr</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <type>war</type>
+  </dependency>
+  <dependency>
+    <groupId>com.sishuok</groupId>
+    <artifactId>customermgr</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <type>war</type>
+  </dependency>
+  <dependency>
+    <groupId>com.sishuok</groupId>
+    <artifactId>goodsmgrweb</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <type>war</type>
+  </dependency>
+</dependencies>
+  <build>
+    <finalName>architecture1web</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <overlays>
+            <overlay>
+              <groupId>com.sishuok</groupId>
+              <artifactId>customermgr</artifactId>
+            </overlay>
+            <overlay>
+              <groupId>com.sishuok</groupId>
+              <artifactId>goodsmgrweb</artifactId>
+            </overlay>
+            <overlay>
+              <groupId>com.sishuok</groupId>
+              <artifactId>cartmgr</artifactId>
+            </overlay>
+            <overlay>
+              <groupId>com.sishuok</groupId>
+              <artifactId>ordermgr</artifactId>
+            </overlay>
+            <overlay>
+              <groupId>com.sishuok</groupId>
+              <artifactId>storemgr</artifactId>
+            </overlay>
+          </overlays>
+        </configuration>
+      </plugin>
 
-
+    </plugins>
+  </build>
 </project>

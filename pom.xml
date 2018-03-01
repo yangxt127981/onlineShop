@@ -10,6 +10,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <modules>
     <module>architectureweb</module>
+    <module>common</module>
+    <module>customermgr</module>
+    <module>cartmgr</module>
+    <module>storemgr</module>
+    <module>goodsmgr</module>
+    <module>goodsmgrweb</module>
+    <module>ordermgr</module>
   </modules>
 
 
