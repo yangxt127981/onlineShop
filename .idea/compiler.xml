@@ -10,7 +10,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="architecture1" target="1.5" />
       <module name="architectureweb" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="customermgr" target="1.5" />
       <module name="onlineShop" target="1.5" />
     </bytecodeTargetLevel>
   </component>

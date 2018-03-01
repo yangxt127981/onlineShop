@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/architecture1.iml" filepath="$PROJECT_DIR$/architecture1.iml" />
       <module fileurl="file://$PROJECT_DIR$/architectureweb/architectureweb.iml" filepath="$PROJECT_DIR$/architectureweb/architectureweb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/onlineShop.iml" filepath="$PROJECT_DIR$/onlineShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
     </modules>
   </component>
 </project>
