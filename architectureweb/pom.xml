@@ -11,6 +11,7 @@
 
   <artifactId>architectureweb</artifactId>
   <packaging>war</packaging>
+
 <dependencies>
   <dependency>
     <groupId>com.sishuok</groupId>
